@@ -78,15 +78,16 @@ git branch amazing_new_feature
 ````
 git branch
 ````
-amazing_new_feature
-* master
+1.amazing_new_feature
+2.* master
+
 **master — это активная ветка, она помечена звездочкой.**
 **checkout, она принимает один параметр — имя ветки, на которую необходимо переключиться.**
 ````
 git checkout amazing_new_feature
 ````
 # 7.3 Слияние веток
-**создадим новый файл, добавим и закоммитим:
+**создадим новый файл, добавим и закоммитим:**
 ````
 git add feature.txt
 ````
